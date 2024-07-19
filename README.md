@@ -23,26 +23,63 @@
 6. [项目实战与案例分析](#项目实战与案例分析)
 7. [贡献指南](#贡献指南)
 
-
 ## 基础知识
 
 在这一部分，我们将整理一些与自然语言处理和大模型相关的基础知识面试题目。
 
 ### 例题
+
 1. 什么是自然语言处理？简述其主要应用领域。
    <details>
    <summary>查看答案</summary>
    自然语言处理（NLP）是计算机科学、人工智能和语言学领域的一个分支，旨在实现人与计算机之间用自然语言进行有效的交流。主要应用领域包括机器翻译、自动摘要、情感分析、语音识别等。
    </details>
-3. 请解释机器学习与深度学习的区别。
-4. 描述词嵌入（Word Embedding）的基本概念及其作用。
+2. 请解释机器学习与深度学习的区别。
+3. 描述词嵌入（Word Embedding）的基本概念及其作用。
 
 ## 算法与数据结构
 
 这里整理一些常见的算法与数据结构题目，这些题目在面试中经常会遇到。
 
 ### 例题
+
 1. 实现一个二叉树的前序遍历算法。
+
+   ```cpp
+   # dfs
+   void preorder(TreeNode *root, vector<int> &res) {
+           if (root == nullptr) {
+               return;
+           }
+           res.push_back(root->val);
+           preorder(root->left, res);
+           preorder(root->right, res);
+       }
+
+   # iteration 
+   vector<int> preorderTraversal(TreeNode* root) {
+           vector<int> res;
+           if (root == nullptr) {
+               return res;
+           }
+
+           stack<TreeNode*> stk;
+           TreeNode* node = root;
+           while (!stk.empty() || node != nullptr) {
+               while (node != nullptr) {
+                   res.emplace_back(node->val);
+                   stk.emplace(node);
+                   node = node->left;
+               }
+               node = stk.top();
+               stk.pop();
+               node = node->right;
+           }
+           return res;
+       }
+
+
+   ```
 2. 如何检测一个链表是否有环？
 3. 请解释快速排序的基本原理，并实现一个快速排序算法。
 
@@ -51,6 +88,7 @@
 这一部分包括一些与机器学习和深度学习相关的面试题目。
 
 ### 例题
+
 1. 解释线性回归与逻辑回归的区别。
 2. 什么是过拟合？如何防止模型过拟合？
 3. 请解释卷积神经网络（CNN）的基本结构及其应用。
@@ -60,6 +98,7 @@
 这一部分包括一些专用于自然语言处理的算法题目。
 
 ### 例题
+
 1. 什么是TF-IDF？如何计算一个文档的TF-IDF值？
 2. 请解释注意力机制（Attention Mechanism）及其在NLP中的应用。
 3. 描述BERT模型的基本结构和训练方法。
@@ -69,6 +108,7 @@
 这一部分包括一些与大模型架构和优化相关的面试题目。
 
 ### 例题
+
 1. 请解释GPT模型的基本原理和结构。
 2. 如何进行模型的分布式训练？
 3. 描述模型蒸馏（Model Distillation）的概念及其作用。
@@ -78,6 +118,7 @@
 这一部分将整理一些实际项目中的案例分析题目。
 
 ### 例题
+
 1. 介绍一个你曾经参与的NLP项目，并详细描述你的贡献。
 2. 请解释如何在一个实际项目中部署一个大模型。
 3. 讨论在实际项目中遇到的挑战及其解决方案。
@@ -89,4 +130,3 @@
 1. 确保提交的题目和答案清晰明了，并且经过验证。
 2. 在提交Pull Request之前，请检查是否有重复的题目。
 3. 请遵循Markdown格式，并保持项目的一致性。
-
