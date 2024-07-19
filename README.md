@@ -86,6 +86,3 @@
 2. 在提交Pull Request之前，请检查是否有重复的题目。
 3. 请遵循Markdown格式，并保持项目的一致性。
 
-## 许可协议
-
-本项目采用 [MIT 许可协议](LICENSE)。详细内容请参阅 [LICENSE 文件](LICENSE)。
