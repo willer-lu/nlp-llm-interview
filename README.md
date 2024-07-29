@@ -163,6 +163,11 @@
 
 1. 介绍一下ChatGPT地训练方式（RLHF）
 
+### llama
+1. llama 3.1
+[llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
+2. 
+3. 
 ## 大模型微调
 
 ### 参数高效的微调方法
