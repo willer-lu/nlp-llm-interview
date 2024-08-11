@@ -125,15 +125,7 @@
    GPT:prompting(提示工程)。prompt是指当模型要做某个专业领域的任务时，我提供给他一些示例、或者引导。但不用更新模型参数。
       </pre>
       </details>
-2. 为什么现在的LLM大多都是decoder-only的架构？
-
-   <details>
-      <summary>查看答案</summary>
-      <pre>
-   LLM之所以主要都用Decoder-only架构，除了训练效率和工程实现上的优势外，在理论上是因为Encoder的双向注意力会存在低秩问题，这可能会削弱模型表达能力，就生成任务而言，引入双向注意力并无实质好处。而Encoder-Decoder架构之所以能够在某些场景下表现更好，大概只是因为它多了一倍参数。
-   所以，在同等参数量、同等推理成本下，Decoder-only架构就是最优选择了。目前AI大模型的架构基本都采用了Decoder-only(仅解码器)，这一类架构的优势在于可以更容易完成文本生成任务，主流大模型如OpenAl开发的GPT系列、英伟达开发的Megatron-LM等均是采用此架构。另外，研究者们发现模型在增大参数量之后，尤其是加上指令微调之后，其他架构能做的Decoder-only模型也都能做了(比如一系列NLU任务)，同时还有更高的上限和回复多样性。
-      </pre>
-      </details>
+2. [为什么现在的LLM大多都是decoder-only的架构？](https://blog.csdn.net/qq_36372352/article/details/140237927)
 
 ## 大模型架构与大模型预训练
 
@@ -150,7 +142,7 @@
 ### ChatGPT
 
 1. 介绍一下ChatGPT的训练方式（RLHF）
-   [大语言模型的预训练[2]:GPT、GPT2、GPT3、GPT3.5、GPT4相关理论知识和模型实现]（https://blog.csdn.net/sinat_39620217/article/details/131796342）
+   [大语言模型的预训练](https://blog.csdn.net/sinat_39620217/article/details/131796342)
 
 ### llama
 1. [llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
@@ -213,8 +205,8 @@
 
 ### git版本控制
 
-1. git merge和git rebase的区别？
-2. 发生冲突怎么办？
+1. [git merge和git rebase的区别？](https://blog.csdn.net/weixin_45565886/article/details/133798840)
+2. [git 冲突如何解决](https://blog.csdn.net/weixin_44799217/article/details/132013096)
 
 ### 例题
 
