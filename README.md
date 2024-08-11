@@ -53,8 +53,16 @@
 
 ## 自然语言处理基础
 
-1. 什么是tokenizer？
-2. 介绍一下TF-IDF
+1. 什么是tokenizer？    
+    [Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)    
+    [Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
+2. 介绍一下TF-IDF    
+    [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
+
+
+
+
+
 
 ## Transformer、Bert、GPT系列模型
 
@@ -72,10 +80,7 @@
    [BatchNorm、LayerNorm以及GroupNorm](https://www.bilibili.com/video/BV1UG411f7DL/?spm_id_from=333.999.0.0)
 
 ### Bert
-
-1. Bert的结构
-2. Bert的预训练任务和预训练方式
-3. Bert在下游任务的微调方法
+1. [BERT详解：概念、原理与应用](https://blog.csdn.net/fuhanghang/article/details/129524848)
 
 ### GPT
 
