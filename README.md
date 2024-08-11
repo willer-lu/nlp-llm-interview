@@ -44,12 +44,16 @@
 1. 梯度裁剪
 
    [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
+   
 
 ## 深度学习基础
 
 ### 模型训练
 
 1. 模型训练所占用的显存由哪些部分组成？
+2. [weight_decay](https://blog.csdn.net/zhaohongfei_358/article/details/129625803)
+3. [mse损失函数和cross entropy的区别](https://blog.csdn.net/weixin_41888257/article/details/104894141)
+4. [输入token太长了怎么办](https://zhuanlan.zhihu.com/p/493424507)
 
 ## 自然语言处理基础
 
@@ -58,6 +62,7 @@
     [Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
 2. 介绍一下TF-IDF    
     [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
+3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
 
 
 
@@ -78,6 +83,7 @@
 4. BatchNorm、LayerNorm以及GroupNorm的区别
 
    [BatchNorm、LayerNorm以及GroupNorm](https://www.bilibili.com/video/BV1UG411f7DL/?spm_id_from=333.999.0.0)
+5. [transformers库的基本使用方式](https://blog.csdn.net/pipisorry/article/details/131003691)
 
 ### Bert
 1. [BERT详解：概念、原理与应用](https://blog.csdn.net/fuhanghang/article/details/129524848)
@@ -133,30 +139,9 @@
 
 ### 大模型预训练
 
-1. 大语言模型中有哪些分词技术？
-
-   <details>
-      <summary>查看答案</summary>
-      <pre>
-   分词是将原始文本转化为一系列较小单位(称为令牌)的过程，这些令牌可以是单词、子词或字符。在大型语言模型中使用的一些分词方法和技术包括:
-   基于单词的分词:这种方法将文本分割成单个单词，将每个单词视为一个单独的令牌。虽然简单直观基于单词的分词可能会在处理词汇表之外的单词时遇到问题，并且可能无法有效处理具有复杂形态的语言。
-   基于子词的分词:基于子词的方法，例如字节对编码(Byte Pair Encoding，BPE)和WordPiece，将文本分割成可以组合成整个单词的较小单元。这种方法使LLMs能够处理词汇表之外的单词，并更好地捕捉不同语言的结构。BPE，例如，合并最常出现的字符对以创建子词单元，而WordPiece采用数据驱动的方法将单词分割成子词令牌。
-   基于字符的分词:这种方法将单个字符视为令牌。虽然它可以处理任何输入文本，但基于字符的分词通常需要更大的模型和更多的计算资源，因为它需要处理更长的令牌序列。
-      </pre>
-      </details>
-2. 如何缓解LLM复读机问题？
-
-   <details>
-      <summary>查看答案</summary>
-      <pre>
-   多样性训练数据:在训练阶段，尽量使用多样性的语料库来训练模型，避免数据偏差和重复文本的问题。
-   引入噪声:在生成文本时，可以引入一些随机性或噪声，例如通过采样不同的词或短语，或者引入随机的变换操作，以增加生成文本的多样性。
-   温度参数调整:温度参数是用来控制生成文本的多样性的一个参数。通过调整温度参数的值，可以控制生成文本的独创性和多样性，从而减少复读机问题的出现。
-   后处理和过滤:对生成的文本进行后处理和过滤，去除重复的句子或短语，以提高生成文本的质量和多样性。
-   Beam搜索调整:在生成文本时，可以调整Beam搜索算法的参数。Beam搜索是一种常用的生成策略，它在生成过程中维护了一个候选序列的集合。通过调整Beam大小和搜索宽度，可以控制生成文本的多样性和创造性。
-   人工干预和控制:对于关键任务或敏感场景，可以引入人工干预和控制机制，对生成的文本进行审查和筛选，确保生成结果的准确性和多样性。
-      </pre>
-      </details>
+1. [NLP分词算法（总结篇）](https://zhuanlan.zhihu.com/p/679127448)
+2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
+  
 3. 谈一谈你对强化学习在LLM中的理解
 4. 分布式训练
 数据并行、模型并行
@@ -164,13 +149,13 @@
 
 ### ChatGPT
 
-1. 介绍一下ChatGPT地训练方式（RLHF）
+1. 介绍一下ChatGPT的训练方式（RLHF）
+   [大语言模型的预训练[2]:GPT、GPT2、GPT3、GPT3.5、GPT4相关理论知识和模型实现]（https://blog.csdn.net/sinat_39620217/article/details/131796342）
 
 ### llama
-1. llama 3.1   
-[llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
-2. 
-3. 
+1. [llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
+2. [llama2](https://blog.csdn.net/v_JULY_v/article/details/129709105)
+3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
 ## 大模型微调
 
 ### 参数高效的微调方法
@@ -178,6 +163,8 @@
 1. lora微调的原理
 2. p-tuning微调的原理
 3. 不同微调方法的区别？什么情况下应该使用什么微调方法？
+4. lora训练项目
+   [IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 
 ### SFT
 
@@ -190,7 +177,7 @@
 1. 介绍一下deepspeed的三个zero的区别
 2. deepspeed的加速原理
 3. 介绍一下vllm
-4. deepspeed实践项目
+4. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
 
 ### 大模型训练加速
 
