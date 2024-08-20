@@ -54,14 +54,14 @@
 2. [weight_decay](https://blog.csdn.net/zhaohongfei_358/article/details/129625803)
 3. [mse损失函数和cross entropy的区别](https://blog.csdn.net/weixin_41888257/article/details/104894141)
 4. [输入token太长了怎么办](https://zhuanlan.zhihu.com/p/493424507)
+5. [怎么从0搭建一个深度学习模型](https://blog.csdn.net/AAI666666/article/details/135975253)
 
 ## 自然语言处理基础
 
 1. 什么是tokenizer？    
     [Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)    
     [Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
-2. 介绍一下TF-IDF    
-    [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
+2. [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
 3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
 
 
@@ -73,17 +73,11 @@
 
 ### Transformer
 
-1. 介绍Transformer
-
-   [一文读懂Transformer](https://blog.csdn.net/weixin_42475060/article/details/121101749)
-2. Transformer位置编码
-
-   [Transformer位置编码](https://blog.csdn.net/xian0710830114/article/details/133377460)
-3. 为什么Transformer要用LayerNorm
-4. BatchNorm、LayerNorm以及GroupNorm的区别
-
-   [BatchNorm、LayerNorm以及GroupNorm](https://www.bilibili.com/video/BV1UG411f7DL/?spm_id_from=333.999.0.0)
-5. [transformers库的基本使用方式](https://blog.csdn.net/pipisorry/article/details/131003691)
+1. [一文读懂Transformer](https://blog.csdn.net/weixin_42475060/article/details/121101749)
+2. [Transformer位置编码](https://blog.csdn.net/xian0710830114/article/details/133377460)
+3. [BatchNorm、LayerNorm以及GroupNorm](https://www.bilibili.com/video/BV1UG411f7DL/?spm_id_from=333.999.0.0)
+4. [transformers库的基本使用方式](https://blog.csdn.net/pipisorry/article/details/131003691)
+5. [safetensor](https://zhuanlan.zhihu.com/p/695555072)
 
 ### Bert
 1. [BERT详解：概念、原理与应用](https://blog.csdn.net/fuhanghang/article/details/129524848)
@@ -96,35 +90,7 @@
 
 ### 模型比较
 
-1. 简述GPT和BERT的区别
-
-   <details>
-      <summary>查看答案</summary>
-      <pre>
-   BERT:双向 预训练语言模型+fine-tuning(微调)
-   GPT:自回归 预训练语言模型+prompting(指示/提示)
-   BERT和GPT是近年来自然语言处理领域中非常重要的模型，它们代表了现代NLP技术的发展。
-   应用上的差别:
-   BERT主要用于自然语言理解，具体应用如下:
-          问答系统:BERT可以在问答系统中用来理解问题并生成答案。
-          句子相似度比较:BERT可以用来比较两个句子之间的相似程度
-          文本分类:BERT可以用来对文本进行分类。
-          情感分析:BERT可以用来对文本进行情感分析。
-          命名实体识别:BERT可以用来识别文本中的命名实体。
-   GPT在文本生成方面表现尤为优秀，其主要具体应用如下:
-          文本生成:GPT可以用来生成文本。
-          文本自动完成:GPT可以用来自动完成用户输入的文本。
-          语言翻译:GPT可以用来生成翻译后的文本。
-          对话生成: GPT可以用来生成对话
-          摘要生成: GPT可以用来生成文章摘要
-   预训练的区别：
-        	在Bert的预训练中，主要是用完形填空的方式补全随机mask的内容。
-          在GPT的预训练中，主要是预测下一个token。
-   使用方法的差别:
-   BERT:fine-tuning(微调)。微调是指模型要做某个专业领域任务时，需要收集相关的专业领域数据，做模型的小幅调整，更新相关参数。
-   GPT:prompting(提示工程)。prompt是指当模型要做某个专业领域的任务时，我提供给他一些示例、或者引导。但不用更新模型参数。
-      </pre>
-      </details>
+1. [GPT和BERT的区别](https://zhuanlan.zhihu.com/p/709550645)
 2. [为什么现在的LLM大多都是decoder-only的架构？](https://blog.csdn.net/qq_36372352/article/details/140237927)
 
 ## 大模型架构与大模型预训练
@@ -148,6 +114,9 @@
 1. [llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
 2. [llama2](https://blog.csdn.net/v_JULY_v/article/details/129709105)
 3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
+
+### ChatGLM
+1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
 ## 大模型微调
 
 ### 参数高效的微调方法
@@ -183,7 +152,7 @@
 
 ### 大模型幻觉问题
 
-1. 什么是大模型幻觉？
+1. [大模型幻觉产生原因和解决方案](https://zhuanlan.zhihu.com/p/677935286)
 
 ### 向量检索
 
