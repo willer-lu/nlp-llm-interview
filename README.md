@@ -58,6 +58,11 @@
 5. [怎么从0搭建一个深度学习模型](https://blog.csdn.net/AAI666666/article/details/135975253)
 6. [模型并行训练]
 7. dropout
+8. 显存不够一般怎么解决
+9. 为什么要使用gpu
+
+### 模型推理
+1. [模型推理占用的显存】多卡推理]
 
 ## 自然语言处理基础
 
@@ -96,6 +101,8 @@
 
 1. [GPT和BERT的区别](https://zhuanlan.zhihu.com/p/709550645)
 2. [为什么现在的LLM大多都是decoder-only的架构？](https://blog.csdn.net/qq_36372352/article/details/140237927)
+3. 位置编码比较
+4. loss比较
 
 ## 大模型架构与大模型预训练
 
@@ -105,13 +112,13 @@
 2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
   
 3. [对强化学习在LLM中的理解](https://zhuanlan.zhihu.com/p/692074916)
+4. 半精度训练
 
 
 
 ### ChatGPT
 
-1. 介绍一下ChatGPT的训练方式（RLHF）
-   [大语言模型的预训练](https://blog.csdn.net/sinat_39620217/article/details/131796342)
+1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
 
 ### llama
 1. [llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
@@ -120,10 +127,22 @@
 
 ### 大模型相关知识
 1. 大模型的温度系数，top-p,top-k
+2. 模型的输入上下文窗口
+3. 如何处理更长的文本
+4. prefix decoder和causal decoder的区别
+5. 大模型涌现能力
 
 ### ChatGLM
 1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
 ## 大模型微调
+
+
+
+
+### 传统微调方法
+
+1. 全参数微调的显存占用
+2. 多轮对话任务如何微调
 
 ### 参数高效的微调方法
 
@@ -132,10 +151,18 @@
 3. 不同微调方法的区别？什么情况下应该使用什么微调方法？
 4. lora训练项目    
    [IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
+5. peft库
 
 ### SFT
 
 1. 什么是SFT？
+2. sft指令微调的数据如何构建
+3. 灾难性遗忘
+
+### 微调数据集
+1. 不同微调方式的数据集格式和获取方式
+2. 微调需要多少条数据
+3. 有哪些大模型的训练集
 
 ## 大模型训练与推理加速
 
@@ -150,6 +177,7 @@
 
 ### 大模型推理加速
 1. k-v cache
+2. 不同精度的推理区别
 
 
 
@@ -168,14 +196,15 @@
 ### 大模型评测基准
 
 1. 你了解哪些大模型评测基准？
+2. 如何评测大模型
 
 
 
-## 大模型agent
+## 大模型应用与大模型agent
 
-这一部分将整理关于大模型agent相关的题目。
+### 大模型应用
+1. langchain
 
-### 例题
 
 ## 其他问题
 
