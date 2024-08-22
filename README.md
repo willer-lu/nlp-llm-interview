@@ -41,20 +41,23 @@
 
 ### 机器学习基础知识
 
-1. 梯度裁剪
-
-   [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
+1. [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
+2. 样本均衡
+3. 不调包实现shuffle
+4. 正则化
    
 
 ## 深度学习基础
 
 ### 模型训练
 
-1. 模型训练所占用的显存由哪些部分组成？
+1. [模型显存占用分析](https://blog.51cto.com/welcomeweb/7213052)
 2. [weight_decay](https://blog.csdn.net/zhaohongfei_358/article/details/129625803)
 3. [mse损失函数和cross entropy的区别](https://blog.csdn.net/weixin_41888257/article/details/104894141)
 4. [输入token太长了怎么办](https://zhuanlan.zhihu.com/p/493424507)
 5. [怎么从0搭建一个深度学习模型](https://blog.csdn.net/AAI666666/article/details/135975253)
+6. [模型并行训练]
+7. dropout
 
 ## 自然语言处理基础
 
@@ -84,9 +87,10 @@
 
 ### GPT
 
-1. GPT的结构
-2. GPT的预训练任务和预训练方式
-3. GPT在下游任务的微调方法
+1. [GPT-1](https://zhuanlan.zhihu.com/p/625184011)
+2. [GPT-2](https://blog.csdn.net/2401_85375298/article/details/139419273)
+3. [GPT-3、3.5、4](https://zhuanlan.zhihu.com/p/616691512)
+
 
 ### 模型比较
 
@@ -100,10 +104,9 @@
 1. [NLP分词算法（总结篇）](https://zhuanlan.zhihu.com/p/679127448)
 2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
   
-3. 谈一谈你对强化学习在LLM中的理解
-4. 分布式训练
-数据并行、模型并行
-单机多卡、多机多卡
+3. [对强化学习在LLM中的理解](https://zhuanlan.zhihu.com/p/692074916)
+
+
 
 ### ChatGPT
 
@@ -115,6 +118,9 @@
 2. [llama2](https://blog.csdn.net/v_JULY_v/article/details/129709105)
 3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
 
+### 大模型相关知识
+1. 大模型的温度系数，top-p,top-k
+
 ### ChatGLM
 1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
 ## 大模型微调
@@ -124,7 +130,7 @@
 1. lora微调的原理
 2. p-tuning微调的原理
 3. 不同微调方法的区别？什么情况下应该使用什么微调方法？
-4. lora训练项目
+4. lora训练项目    
    [IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 
 ### SFT
@@ -137,12 +143,13 @@
 
 1. 介绍一下deepspeed的三个zero的区别
 2. deepspeed的加速原理
-3. 介绍一下vllm
+3. 介绍一下vllm    
 4. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
 
 ### 大模型训练加速
 
 ### 大模型推理加速
+1. k-v cache
 
 
 
@@ -162,7 +169,7 @@
 
 1. 你了解哪些大模型评测基准？
 
-### 例题
+
 
 ## 大模型agent
 
