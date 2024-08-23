@@ -42,10 +42,8 @@
 ### 机器学习基础知识
 
 1. [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
-2. 样本均衡
-3. 不调包实现shuffle
-4. 正则化
-   
+2. [样本不均衡问题的解决](https://zhuanlan.zhihu.com/p/466994436)
+3. [机器学习正则化](https://blog.csdn.net/qq_31267769/article/details/103567455)   
 
 ## 深度学习基础
 
@@ -56,10 +54,9 @@
 3. [mse损失函数和cross entropy的区别](https://blog.csdn.net/weixin_41888257/article/details/104894141)
 4. [输入token太长了怎么办](https://zhuanlan.zhihu.com/p/493424507)
 5. [怎么从0搭建一个深度学习模型](https://blog.csdn.net/AAI666666/article/details/135975253)
-6. [模型并行训练]
-7. dropout
-8. 显存不够一般怎么解决
-9. 为什么要使用gpu
+6. [模型并行训练](https://blog.csdn.net/v_JULY_v/article/details/132462452)
+7. [大模型训练显存不够一般怎么解决](https://zhuanlan.zhihu.com/p/693191199)
+8. 为什么要使用gpu
 
 ### 模型推理
 1. [模型推理占用的显存】多卡推理]
@@ -166,6 +163,8 @@
 
 ## 大模型训练与推理加速
 
+1. [混合专家系统MOE](https://zhuanlan.zhihu.com/p/680190127)
+
 ### 大模型加速库
 
 1. 介绍一下deepspeed的三个zero的区别
@@ -181,7 +180,7 @@
 
 
 
-1. 介绍一下MOE
+
 
 ## 大模型幻觉
 
