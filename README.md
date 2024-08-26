@@ -32,7 +32,7 @@
 7. [大模型训练与推理加速](#大模型训练与推理加速)
 8. [大模型幻觉](#大模型幻觉)
 9. [大模型评测](#大模型评测)
-10. [大模型agent](#大模型agent)
+10. [大模型应用与大模型agent](#大模型应用与大模型agent)
 11. [其他问题](#其他问题)
 12. [pytorch基础](#pytorch基础)
 13. [贡献指南](#贡献指南)
@@ -56,10 +56,11 @@
 5. [怎么从0搭建一个深度学习模型](https://blog.csdn.net/AAI666666/article/details/135975253)
 6. [模型并行训练](https://blog.csdn.net/v_JULY_v/article/details/132462452)
 7. [大模型训练显存不够一般怎么解决](https://zhuanlan.zhihu.com/p/693191199)
-8. 为什么要使用gpu
+8. [gpu对深度学习的作用](https://www.zhihu.com/tardis/bd/art/106669828)
 
 ### 模型推理
-1. [模型推理占用的显存】多卡推理]
+1. [模型推理占用的显存](https://blog.csdn.net/jiaxin576/article/details/139276270)
+2. [DataParallel多卡推理](https://blog.51cto.com/u_16213591/10327981)
 
 ## 自然语言处理基础
 
@@ -98,8 +99,8 @@
 
 1. [GPT和BERT的区别](https://zhuanlan.zhihu.com/p/709550645)
 2. [为什么现在的LLM大多都是decoder-only的架构？](https://blog.csdn.net/qq_36372352/article/details/140237927)
-3. 位置编码比较
-4. loss比较
+3. [不同位置编码的分析](https://www.zhihu.com/tardis/bd/art/675243992?source_id=1001)
+
 
 ## 大模型架构与大模型预训练
 
@@ -109,7 +110,7 @@
 2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
   
 3. [对强化学习在LLM中的理解](https://zhuanlan.zhihu.com/p/692074916)
-4. 半精度训练
+4. [大模型量化](https://zhuanlan.zhihu.com/p/649460612)
 
 
 
@@ -125,7 +126,7 @@
 ### 大模型相关知识
 1. 大模型的温度系数，top-p,top-k
 2. 模型的输入上下文窗口
-3. 如何处理更长的文本
+3. [如何处理更长的文本](https://blog.csdn.net/weixin_46103454/article/details/140334541)
 4. prefix decoder和causal decoder的区别
 5. 大模型涌现能力
 
