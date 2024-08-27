@@ -124,11 +124,12 @@
 3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
 
 ### 大模型相关知识
-1. 大模型的温度系数，top-p,top-k
-2. 模型的输入上下文窗口
+1. [大模型的温度系数](https://zhuanlan.zhihu.com/p/666670367)
+2. [大模型上下文窗口](https://blog.csdn.net/sinat_37574187/article/details/140515743)
 3. [如何处理更长的文本](https://blog.csdn.net/weixin_46103454/article/details/140334541)
-4. prefix decoder和causal decoder的区别
-5. 大模型涌现能力
+4. [prefix decoder和causal decoder的区别](https://zhuanlan.zhihu.com/p/704345908)
+5. [大模型涌现能力](https://zhuanlan.zhihu.com/p/621438653)
+6. [大模型若干参数的解析](https://blog.csdn.net/u012856866/article/details/140308083)
 
 ### ChatGLM
 1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
