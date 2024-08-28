@@ -1,4 +1,4 @@
-# 自然语言处理（大模型）算法工程师面试题目汇总
+# 自然语言处理（大模型）算法工程师面试题目汇总(知识点总结)
 
 ## 项目简介
 
@@ -145,18 +145,18 @@
 
 ### 参数高效的微调方法
 
-1. lora微调的原理
-2. p-tuning微调的原理
-3. 不同微调方法的区别？什么情况下应该使用什么微调方法？
+1. [lora微调的原理](https://zhuanlan.zhihu.com/p/702629428)
+2. [p-tuning微调的原理](https://zhuanlan.zhihu.com/p/635848732)
+3. [不同微调方法的总结](https://blog.csdn.net/lvaolan123456/article/details/139809203)
 4. lora训练项目    
    [IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
-5. peft库
+5. [peft库详解](https://blog.csdn.net/qq_41185868/article/details/131831931)
 
 ### SFT
 
-1. 什么是SFT？
-2. sft指令微调的数据如何构建
-3. 灾难性遗忘
+1. [什么是SFT？](https://blog.csdn.net/sunyuhua_keyboard/article/details/140096441)
+2. [sft指令微调的数据如何构建](https://blog.csdn.net/Code1994/article/details/140922301)
+3. [灾难性遗忘-增量预训练方法](https://blog.csdn.net/2401_85375186/article/details/140669768)
 
 ### 微调数据集
 1. 不同微调方式的数据集格式和获取方式
@@ -218,7 +218,7 @@
 
 ## pytorch基础
 
-1.手撕模型训练的基本代码（假设数据已经准备好）
+
 
 ## 贡献指南
 
