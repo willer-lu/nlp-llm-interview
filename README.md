@@ -43,7 +43,7 @@
 
 1. [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
 2. [样本不均衡问题的解决](https://zhuanlan.zhihu.com/p/466994436)
-3. [机器学习正则化](https://blog.csdn.net/qq_31267769/article/details/103567455)   
+3. [机器学习正则化](https://blog.csdn.net/qq_31267769/article/details/103567455)
 
 ## 深度学习基础
 
@@ -59,21 +59,15 @@
 8. [gpu对深度学习的作用](https://www.zhihu.com/tardis/bd/art/106669828)
 
 ### 模型推理
+
 1. [模型推理占用的显存](https://blog.csdn.net/jiaxin576/article/details/139276270)
 2. [DataParallel多卡推理](https://blog.51cto.com/u_16213591/10327981)
 
 ## 自然语言处理基础
 
-1. 什么是tokenizer？    
-    [Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)    
-    [Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
+1. 什么是tokenizer？[Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)[Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
 2. [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
 3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
-
-
-
-
-
 
 ## Transformer、Bert、GPT系列模型
 
@@ -86,6 +80,7 @@
 5. [safetensor](https://zhuanlan.zhihu.com/p/695555072)
 
 ### Bert
+
 1. [BERT详解：概念、原理与应用](https://blog.csdn.net/fuhanghang/article/details/129524848)
 
 ### GPT
@@ -94,13 +89,11 @@
 2. [GPT-2](https://blog.csdn.net/2401_85375298/article/details/139419273)
 3. [GPT-3、3.5、4](https://zhuanlan.zhihu.com/p/616691512)
 
-
 ### 模型比较
 
 1. [GPT和BERT的区别](https://zhuanlan.zhihu.com/p/709550645)
 2. [为什么现在的LLM大多都是decoder-only的架构？](https://blog.csdn.net/qq_36372352/article/details/140237927)
 3. [不同位置编码的分析](https://www.zhihu.com/tardis/bd/art/675243992?source_id=1001)
-
 
 ## 大模型架构与大模型预训练
 
@@ -108,22 +101,21 @@
 
 1. [NLP分词算法（总结篇）](https://zhuanlan.zhihu.com/p/679127448)
 2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
-  
 3. [对强化学习在LLM中的理解](https://zhuanlan.zhihu.com/p/692074916)
 4. [大模型量化](https://zhuanlan.zhihu.com/p/649460612)
-
-
 
 ### ChatGPT
 
 1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
 
 ### llama
+
 1. [llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
 2. [llama2](https://blog.csdn.net/v_JULY_v/article/details/129709105)
 3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
 
 ### 大模型相关知识
+
 1. [大模型的温度系数](https://zhuanlan.zhihu.com/p/666670367)
 2. [大模型上下文窗口](https://blog.csdn.net/sinat_37574187/article/details/140515743)
 3. [如何处理更长的文本](https://blog.csdn.net/weixin_46103454/article/details/140334541)
@@ -132,11 +124,10 @@
 6. [大模型若干参数的解析](https://blog.csdn.net/u012856866/article/details/140308083)
 
 ### ChatGLM
+
 1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
+
 ## 大模型微调
-
-
-
 
 ### 传统微调方法
 
@@ -148,8 +139,7 @@
 1. [lora微调的原理](https://zhuanlan.zhihu.com/p/702629428)
 2. [p-tuning微调的原理](https://zhuanlan.zhihu.com/p/635848732)
 3. [不同微调方法的总结](https://blog.csdn.net/lvaolan123456/article/details/139809203)
-4. lora训练项目    
-   [IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
+4. lora训练项目[IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 5. [peft库详解](https://blog.csdn.net/qq_41185868/article/details/131831931)
 
 ### SFT
@@ -159,30 +149,28 @@
 3. [灾难性遗忘-增量预训练方法](https://blog.csdn.net/2401_85375186/article/details/140669768)
 
 ### 微调数据集
+
 1. 不同微调方式的数据集格式和获取方式
 2. 微调需要多少条数据
 3. 有哪些大模型的训练集
 
 ## 大模型训练与推理加速
 
-1. [混合专家系统MOE](https://zhuanlan.zhihu.com/p/680190127)
+1. [混合专家系统MOE](https://huggingface.co/blog/zh/moe)
 
 ### 大模型加速库
 
-1. 介绍一下deepspeed的三个zero的区别
-2. deepspeed的加速原理
-3. 介绍一下vllm    
-4. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
+1. [介绍一下deepspeed的三个zero的区别](https://blog.csdn.net/baoyan2015/article/details/136820078)
+3. deepspeed的加速原理
+4. 介绍一下vllm
+5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
 
 ### 大模型训练加速
 
 ### 大模型推理加速
+
 1. k-v cache
 2. 不同精度的推理区别
-
-
-
-
 
 ## 大模型幻觉
 
@@ -199,13 +187,11 @@
 1. 你了解哪些大模型评测基准？
 2. 如何评测大模型
 
-
-
 ## 大模型应用与大模型agent
 
 ### 大模型应用
-1. langchain
 
+1. langchain
 
 ## 其他问题
 
@@ -217,8 +203,6 @@
 ### 例题
 
 ## pytorch基础
-
-
 
 ## 贡献指南
 
