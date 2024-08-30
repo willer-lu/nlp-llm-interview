@@ -169,7 +169,7 @@
 
 ### 大模型推理加速
 
-1. k-v cache
+1. [k-v cache](https://www.jianshu.com/p/22daf73f5c9a)
 2. 不同精度的推理区别
 
 ## 大模型幻觉
