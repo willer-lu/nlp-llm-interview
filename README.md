@@ -161,8 +161,8 @@
 ### 大模型加速库
 
 1. [介绍一下deepspeed的三个zero的区别](https://blog.csdn.net/baoyan2015/article/details/136820078)
-3. deepspeed的加速原理
-4. 介绍一下vllm
+3. [deepspeed的加速原理](https://blog.csdn.net/zwqjoy/article/details/130732601)
+4. [介绍一下vllm](https://www.lixueduan.com/posts/ai/03-inference-vllm/)
 5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
 
 ### 大模型训练加速
@@ -170,7 +170,7 @@
 ### 大模型推理加速
 
 1. [k-v cache](https://www.jianshu.com/p/22daf73f5c9a)
-2. 不同精度的推理区别
+2. 不同精度的推理区别？[大语言模型LLM基础：推理/不同模型/量化对显存、推理速度和性能的影响](https://blog.csdn.net/weixin_45498383/article/details/140058934)
 
 ## 大模型幻觉
 
