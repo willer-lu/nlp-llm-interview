@@ -65,7 +65,7 @@
 
 ## 自然语言处理基础
 
-1. 什么是tokenizer？[Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)[Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
+1. [Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)[Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
 2. [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
 3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
 
@@ -103,6 +103,9 @@
 2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
 3. [对强化学习在LLM中的理解](https://zhuanlan.zhihu.com/p/692074916)
 4. [大模型量化](https://zhuanlan.zhihu.com/p/649460612)
+5. 大模型分布式训练
+6. 如何获得高质量的训练数据
+7. [大语言模型模型对齐的方法](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247562456&idx=3&sn=a4f80efb78ae8c0926332ae52c253259&chksm=ea63e859903cb4571ca4d05d7f624e32304eaad10be8a8b3ce47e427103f77f5e372ac2eb51a&scene=27)
 
 ### ChatGPT
 
@@ -114,7 +117,13 @@
 2. [llama2](https://blog.csdn.net/v_JULY_v/article/details/129709105)
 3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
 
-### 大模型相关知识
+### ChatGLM
+
+1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
+2. chatGLM2
+3. chatGLM3
+
+### 其他大模型相关知识
 
 1. [大模型的温度系数](https://zhuanlan.zhihu.com/p/666670367)
 2. [大模型上下文窗口](https://blog.csdn.net/sinat_37574187/article/details/140515743)
@@ -122,10 +131,9 @@
 4. [prefix decoder和causal decoder的区别](https://zhuanlan.zhihu.com/p/704345908)
 5. [大模型涌现能力](https://zhuanlan.zhihu.com/p/621438653)
 6. [大模型若干参数的解析](https://blog.csdn.net/u012856866/article/details/140308083)
+7. 大模型的性能和哪些因素有关
 
-### ChatGLM
 
-1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
 
 ## 大模型微调
 
@@ -139,8 +147,9 @@
 1. [lora微调的原理](https://zhuanlan.zhihu.com/p/702629428)
 2. [p-tuning微调的原理](https://zhuanlan.zhihu.com/p/635848732)
 3. [不同微调方法的总结](https://blog.csdn.net/lvaolan123456/article/details/139809203)
-4. lora训练项目[IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
+4. [lora训练项目--IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 5. [peft库详解](https://blog.csdn.net/qq_41185868/article/details/131831931)
+6. Qlora
 
 ### SFT
 
@@ -170,7 +179,7 @@
 ### 大模型推理加速
 
 1. [k-v cache](https://www.jianshu.com/p/22daf73f5c9a)
-2. 不同精度的推理区别？[大语言模型LLM基础：推理/不同模型/量化对显存、推理速度和性能的影响](https://blog.csdn.net/weixin_45498383/article/details/140058934)
+2. [大语言模型LLM基础：推理/不同模型/量化对显存、推理速度和性能的影响](https://blog.csdn.net/weixin_45498383/article/details/140058934)
 
 ## 大模型幻觉
 
@@ -178,7 +187,11 @@
 
 1. [大模型幻觉产生原因和解决方案](https://zhuanlan.zhihu.com/p/677935286)
 
-### 向量检索
+### 检索增强生成
+
+1. 检索增强生成算法介绍
+2. 有哪些检索方式
+3. 
 
 ## 大模型评测
 
