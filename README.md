@@ -44,6 +44,10 @@
 1. [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
 2. [样本不均衡问题的解决](https://zhuanlan.zhihu.com/p/466994436)
 3. [机器学习正则化](https://blog.csdn.net/qq_31267769/article/details/103567455)
+4. 如何解决测试集和验证集分布差异问题
+5. 机器学习的分类（有监督无监督）
+6. 逻辑回归损失函数为什么用交叉熵不用MSE？
+7. MHA中的dropout和MLP的dropout有什么区别？
 
 ## 深度学习基础
 
@@ -57,17 +61,25 @@
 6. [模型并行训练](https://blog.csdn.net/v_JULY_v/article/details/132462452)
 7. [大模型训练显存不够一般怎么解决](https://zhuanlan.zhihu.com/p/693191199)
 8. [gpu对深度学习的作用](https://www.zhihu.com/tardis/bd/art/106669828)
+9. 学习率 warmup
+10. 数据清洗策略
 
 ### 模型推理
 
 1. [模型推理占用的显存](https://blog.csdn.net/jiaxin576/article/details/139276270)
 2. [DataParallel多卡推理](https://blog.51cto.com/u_16213591/10327981)
 
+### 模型结构、损失函数
+
+1. 残差网络
+2. L1 loss和L2 loss的区别
+
 ## 自然语言处理基础
 
 1. [Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)[Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
 2. [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
 3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
+4. RMSNorm
 
 ## Transformer、Bert、GPT系列模型
 
@@ -106,6 +118,7 @@
 5. 大模型分布式训练
 6. 如何获得高质量的训练数据
 7. [大语言模型模型对齐的方法](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247562456&idx=3&sn=a4f80efb78ae8c0926332ae52c253259&chksm=ea63e859903cb4571ca4d05d7f624e32304eaad10be8a8b3ce47e427103f77f5e372ac2eb51a&scene=27)
+8. flash attention
 
 ### ChatGPT
 
@@ -173,6 +186,7 @@
 3. [deepspeed的加速原理](https://blog.csdn.net/zwqjoy/article/details/130732601)
 4. [介绍一下vllm](https://www.lixueduan.com/posts/ai/03-inference-vllm/)
 5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
+6. cuda加速机制
 
 ### 大模型训练加速
 
@@ -205,6 +219,7 @@
 ### 大模型应用
 
 1. langchain
+2. huggingface TGI
 
 ## 其他问题
 
@@ -213,9 +228,15 @@
 1. [git merge和git rebase的区别？](https://blog.csdn.net/weixin_45565886/article/details/133798840)
 2. [git 冲突如何解决](https://blog.csdn.net/weixin_44799217/article/details/132013096)
 
+### 其他计算机知识
+1. 流水线并行
+
 ### 例题
 
 ## pytorch基础
+- 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward
+1. torchrun命令
+2. 
 
 ## 贡献指南
 
