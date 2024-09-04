@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-此项目创建的初衷是为了帮助人工智能、自然语言处理和大语言模型相关背景的同学找工作使用。项目将汇总并整理各类与自然语言处理（NLP）和大模型相关的面试题目，包括但不限于以下内容：
+此项目创建的初衷是为了帮助人工智能、自然语言处理和大语言模型相关背景的同学找工作使用。项目将汇总并整理各类与自然语言处理（NLP）和大模型相关的面试题目(知识点)，包括但不限于以下内容：
 
 - 机器学习基础
 - 深度学习基础
@@ -48,6 +48,9 @@
 5. 机器学习的分类（有监督无监督）
 6. 逻辑回归损失函数为什么用交叉熵不用MSE？
 7. MHA中的dropout和MLP的dropout有什么区别？
+8. 针对小样本的处理方式
+9. 交叉熵损失的推导方式
+10. 集成学习
 
 ## 深度学习基础
 
@@ -63,6 +66,8 @@
 8. [gpu对深度学习的作用](https://www.zhihu.com/tardis/bd/art/106669828)
 9. 学习率 warmup
 10. 数据清洗策略
+11. DP和DDP的区别
+12. 不同优化器的区别
 
 ### 模型推理
 
@@ -80,6 +85,12 @@
 2. [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
 3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
 4. RMSNorm
+5. 独热编码和embedding的用途，各自优势，为什么用
+6. word2vec为什么只用一个隐藏层
+7. CNN处理图像
+8. bpe分词
+9. 知道多个词向量怎么表示出整个句子，说出用模型和不用模型的方法
+10. 多个不同长度的句子怎么转为相同长度的embedding，说出用模型和不用模型的方法
 
 ## Transformer、Bert、GPT系列模型
 
@@ -101,6 +112,8 @@
 2. [GPT-2](https://blog.csdn.net/2401_85375298/article/details/139419273)
 3. [GPT-3、3.5、4](https://zhuanlan.zhihu.com/p/616691512)
 
+### T5
+
 ### 模型比较
 
 1. [GPT和BERT的区别](https://zhuanlan.zhihu.com/p/709550645)
@@ -119,6 +132,14 @@
 6. 如何获得高质量的训练数据
 7. [大语言模型模型对齐的方法](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247562456&idx=3&sn=a4f80efb78ae8c0926332ae52c253259&chksm=ea63e859903cb4571ca4d05d7f624e32304eaad10be8a8b3ce47e427103f77f5e372ac2eb51a&scene=27)
 8. flash attention
+9. group query attention
+10. page attention
+11. 模型训练速度受哪些方面影响
+12. 偏好对齐的理解，有哪些方式
+13. 训练精度
+14. 什么是scale law
+15. 如何评估训练数据的质量（定量定性）
+16. 大模型训练过程学习率一般如何变化的，退火阶段学习率如何变化的
 
 ### ChatGPT
 
@@ -136,6 +157,16 @@
 2. chatGLM2
 3. chatGLM3
 
+### 其他大模型
+1. 百川
+2. 千问
+3. 羊驼
+
+### 长文本大模型技术
+1. 提示压缩技术
+2. 长文本技术策略
+3. long lora
+
 ### 其他大模型相关知识
 
 1. [大模型的温度系数](https://zhuanlan.zhihu.com/p/666670367)
@@ -145,14 +176,18 @@
 5. [大模型涌现能力](https://zhuanlan.zhihu.com/p/621438653)
 6. [大模型若干参数的解析](https://blog.csdn.net/u012856866/article/details/140308083)
 7. 大模型的性能和哪些因素有关
+8. encoder-decoder分离有什么好处
+9. 稀疏注意力机制
+10. 大模型提示学习
+11. 提升推理能力和指令跟随能力哪个更难，为什么，提升指令跟随能力的优化方式和其他的比如推理有什么不一样的地方
 
 
 
 ## 大模型微调
-
+1. 微调了还有必要使用prompt吗
 ### 传统微调方法
 
-1. 全参数微调的显存占用
+1. 全参数微调的显存占用、训练时间
 2. 多轮对话任务如何微调
 
 ### 参数高效的微调方法
@@ -163,6 +198,9 @@
 4. [lora训练项目--IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 5. [peft库详解](https://blog.csdn.net/qq_41185868/article/details/131831931)
 6. Qlora
+7. 模型采用的MLP的adapter，q former adapter，它们之间的一个选型的区别是什么，以及各自的优势是什么？
+
+
 
 ### SFT
 
@@ -176,6 +214,11 @@
 2. 微调需要多少条数据
 3. 有哪些大模型的训练集
 
+### 强化学习
+1. DPO算法
+2. PPO算法
+3. dpo训完了一般输出长度会变化吗？如何解决这个问题
+
 ## 大模型训练与推理加速
 
 1. [混合专家系统MOE](https://huggingface.co/blog/zh/moe)
@@ -186,9 +229,17 @@
 3. [deepspeed的加速原理](https://blog.csdn.net/zwqjoy/article/details/130732601)
 4. [介绍一下vllm](https://www.lixueduan.com/posts/ai/03-inference-vllm/)
 5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
-6. cuda加速机制
+
+### cuda相关知识
+1.  SM，SP，warp 相关概念和关系
+2.  cuda加速原理
+3.  hopper架构
 
 ### 大模型训练加速
+1. 混合并行策略是否了解，介绍一下 TP，PP，DP 的使用场景
+2. 介绍一下混合精度训练的原理和优势
+3. 量化技术
+4. 对于数据并行的理解
 
 ### 大模型推理加速
 
@@ -196,6 +247,11 @@
 2. [大语言模型LLM基础：推理/不同模型/量化对显存、推理速度和性能的影响](https://blog.csdn.net/weixin_45498383/article/details/140058934)
 
 ## 大模型幻觉
+
+
+### 大模型安全
+1. 大模型安全包含哪些方面的内容，有量化指标吗
+2. 有什么防护措施
 
 ### 大模型幻觉问题
 
@@ -205,7 +261,9 @@
 
 1. 检索增强生成算法介绍
 2. 有哪些检索方式
-3. 
+3. RAG 长记忆检索的时候怎么提高召回率的？
+4. 文本向量模型BGE
+
 
 ## 大模型评测
 
@@ -213,6 +271,9 @@
 
 1. 你了解哪些大模型评测基准？
 2. 如何评测大模型
+3. 指令跟随能力的评估集有什么，如何评估的？
+4. gsm8k和math评估集有什么区别？
+5. mbpp和hella swag评估集有什么区别？
 
 ## 大模型应用与大模型agent
 
@@ -220,6 +281,8 @@
 
 1. langchain
 2. huggingface TGI
+3. 大模型函数调用能力如何训练或微调、怎么组织文本的格式喂给模型、怎么把下游的一些工具/插件变成模型可以理解的方式？
+4. 大模型和推荐有什么结合方式？
 
 ## 其他问题
 
@@ -231,10 +294,12 @@
 ### 其他计算机知识
 1. 流水线并行
 
-### 例题
+### python基础
+1. python的迭代器和生成器的区别
+2. 装饰器、*args、**kwargs
 
 ## pytorch基础
-- 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward
+- 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward、损失函数
 1. torchrun命令
 2. 
 
