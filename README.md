@@ -76,22 +76,20 @@
 
 ### 模型结构、损失函数
 
-1. 残差网络
-2. L1 loss和L2 loss的区别
+1. [残差网络](https://zhuanlan.zhihu.com/p/91385516)
+2. [L1 loss和L2 loss的区别](https://blog.csdn.net/weixin_51293984/article/details/137395173)
 
 ## 自然语言处理基础
 
 1. [Tokenizer详解](https://blog.csdn.net/lsb2002/article/details/133095184)[Tokenizer-huggingface实战](https://blog.csdn.net/weixin_50592077/article/details/131597070)
 2. [TF_IDF](https://baike.baidu.com/item/tf-idf/8816134?fr=ge_ala)
 3. [Bi-LSTM](https://blog.csdn.net/m0_59749089/article/details/128754246)
-4. RMSNorm
-5. 独热编码和embedding的用途，各自优势，为什么用
-6. word2vec为什么只用一个隐藏层
-7. CNN处理文本
-8. bpe分词
-9. 知道多个词向量怎么表示出整个句子，说出用模型和不用模型的方法
-10. 多个不同长度的句子怎么转为相同长度的embedding，说出用模型和不用模型的方法
-11. 上采样、下采样
+4. [RMSNorm](https://blog.csdn.net/yjw123456/article/details/138139970)
+5. [独热编码和embedding的区别](https://blog.csdn.net/yunxiu988622/article/details/105816731/)
+6. [word2vec](https://zhuanlan.zhihu.com/p/251348767)
+7. [CNN处理文本](https://blog.csdn.net/weixin_43156294/article/details/140910917)
+8. [bpe分词](https://zhuanlan.zhihu.com/p/698189993)
+9. 上采样、下采样
 
 ## Transformer、Bert、GPT系列模型
 
@@ -177,18 +175,17 @@
 4. [prefix decoder和causal decoder的区别](https://zhuanlan.zhihu.com/p/704345908)
 5. [大模型涌现能力](https://zhuanlan.zhihu.com/p/621438653)
 6. [大模型若干参数的解析](https://blog.csdn.net/u012856866/article/details/140308083)
-7. 大模型的性能和哪些因素有关
-8. encoder-decoder分离有什么好处
-9. 稀疏注意力机制
-10. 大模型提示学习
-11. 提升推理能力和指令跟随能力哪个更难，为什么，提升指令跟随能力的优化方式和其他的比如推理有什么不一样的地方
-12. rejection sampling
+7. [大模型的性能和哪些因素有关](https://baijiahao.baidu.com/s?id=1765223469159042766&wfr=spider&for=pc)
+8. [稀疏注意力机制](https://zhuanlan.zhihu.com/p/691296437)
+9. [大模型提示学习](https://blog.csdn.net/idiotyi/article/details/140263181)
+10. 提升推理能力和指令跟随能力哪个更难，为什么，提升指令跟随能力的优化方式和其他的比如推理有什么不一样的地方
+11. rejection sampling
+12. [模型压缩与模型蒸馏](https://zhuanlan.zhihu.com/p/638092734)
     
 
 
 
 ## 大模型微调
-1. 微调了还有必要使用prompt吗
 ### 传统微调方法
 
 1. 全参数微调的显存占用、训练时间
