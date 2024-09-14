@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-此项目创建的初衷是为了帮助人工智能、自然语言处理和大语言模型相关背景的同学找工作使用。项目将汇总并整理各类与自然语言处理（NLP）和大模型相关的面试题目(知识点)，包括但不限于以下内容：
+此项目创建的初衷是为了帮助人工智能、自然语言处理和大语言模型相关背景的同学找工作使用。项目将汇总并整理各类与自然语言处理（NLP）和大模型相关的面试题目(八股、知识点)，包括但不限于以下内容：
 
 - 机器学习基础
 - 深度学习基础
@@ -19,7 +19,8 @@
 
 欢迎大家加入项目的建设和维护，共同完善和丰富题库内容。
 目前主要针对文本模态，也欢迎多模态方向的同学加入。
-答案来源于外部链接，如有侵权请联系删除，如有链接不可用请及时指出。
+答案来源于外部链接，如有侵权请联系删除，如有链接不可用请及时指出。    
+### 除八股外，也需要对自己的项目或研究方向深入准备，此不在本文档的讨论范围内。
 
 ## 目录
 
@@ -44,7 +45,7 @@
 1. [梯度裁剪目的、原理、示例代码](https://blog.csdn.net/ZacharyGz/article/details/135410610)
 2. [样本不均衡问题的解决](https://zhuanlan.zhihu.com/p/466994436)
 3. [机器学习正则化](https://blog.csdn.net/qq_31267769/article/details/103567455)
-4. 如何解决测试集和验证集分布差异问题
+4. [如何解决测试集和训练集分布差异问题](https://zhuanlan.zhihu.com/p/574303282)
 5. 机器学习的分类（有监督无监督）
 6. 逻辑回归损失函数为什么用交叉熵不用MSE？
 7. MHA中的dropout和MLP的dropout有什么区别？
@@ -91,6 +92,7 @@
 8. bpe分词
 9. 知道多个词向量怎么表示出整个句子，说出用模型和不用模型的方法
 10. 多个不同长度的句子怎么转为相同长度的embedding，说出用模型和不用模型的方法
+11. 上采样、下采样
 
 ## Transformer、Bert、GPT系列模型
 
@@ -140,6 +142,7 @@
 14. 什么是scale law
 15. 如何评估训练数据的质量（定量定性）
 16. 大模型训练过程学习率一般如何变化的，退火阶段学习率如何变化的
+17. 预训练退火
 
 ### ChatGPT
 
@@ -180,6 +183,8 @@
 9. 稀疏注意力机制
 10. 大模型提示学习
 11. 提升推理能力和指令跟随能力哪个更难，为什么，提升指令跟随能力的优化方式和其他的比如推理有什么不一样的地方
+12. rejection sampling
+    
 
 
 
@@ -198,7 +203,8 @@
 4. [lora训练项目--IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 5. [peft库详解](https://blog.csdn.net/qq_41185868/article/details/131831931)
 6. Qlora
-7. 模型采用的MLP的adapter，q former adapter，它们之间的一个选型的区别是什么，以及各自的优势是什么？
+7. adapter
+8. 模型采用的MLP的adapter，q former adapter，它们之间的一个选型的区别是什么，以及各自的优势是什么？
 
 
 
@@ -215,9 +221,9 @@
 3. 有哪些大模型的训练集
 
 ### 强化学习
-1. DPO算法
-2. PPO算法
-3. dpo训完了一般输出长度会变化吗？如何解决这个问题
+1. [DPO算法](https://blog.csdn.net/raelum/article/details/141612193)
+2. [PPO算法](https://blog.51cto.com/u_13937572/7929830)
+3. [dpo训完了一般输出长度会变化吗？如何解决这个问题](https://www.zhihu.com/question/645365157/answer/3426813979)
 
 ## 大模型训练与推理加速
 
@@ -231,15 +237,15 @@
 5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
 
 ### cuda相关知识
-1.  SM，SP，warp 相关概念和关系
-2.  cuda加速原理
-3.  hopper架构
+1.  [SM，SP，warp 等相关概念和关系](https://zhuanlan.zhihu.com/p/266633373?utm_source=wechat_session&utm_id=0)
+2.  [cuda加速原理](http://www.360doc.com/content/24/0429/18/2427359_1121818118.shtml)
+3.  [hopper架构](https://zhuanlan.zhihu.com/p/708645371)
 
 ### 大模型训练加速
-1. 混合并行策略是否了解，介绍一下 TP，PP，DP 的使用场景
-2. 介绍一下混合精度训练的原理和优势
-3. 量化技术
-4. 对于数据并行的理解
+1. [大模型训练并行策略](https://zhuanlan.zhihu.com/p/699944367)
+2. [混合精度训练](https://mp.weixin.qq.com/s?__biz=MzU0MDQ1NjAzNg==&mid=2247584487&idx=2&sn=52b742d9f714af66b22a4d0a0c50f3b0&chksm=fa88dfc3c6adf6a98cdeab0842b169739a7d9566d3a04357039d30561ea7517e053ae784fe77&scene=27)
+3. [量化技术](https://zhuanlan.zhihu.com/p/662881352)
+4. [对于数据并行的理解](https://blog.csdn.net/weixin_41204131/article/details/141005134)
 
 ### 大模型推理加速
 
@@ -250,8 +256,8 @@
 
 
 ### 大模型安全
-1. 大模型安全包含哪些方面的内容，有量化指标吗
-2. 有什么防护措施
+1. [大模型安全包含哪些方面的内容](https://zhuanlan.zhihu.com/p/691384260)
+2. [有什么防护措施](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664224181&idx=1&sn=e41362f5710e5e72d87d7bd041102c3e&chksm=8aa419fd987a102f47f02e2b3c90c2b6f40795d5f0feb3ca3edc91bdba77dd3a5cc60be00cf2&scene=27)
 
 ### 大模型幻觉问题
 
@@ -259,30 +265,27 @@
 
 ### 检索增强生成
 
-1. 检索增强生成算法介绍
-2. 有哪些检索方式
-3. RAG 长记忆检索的时候怎么提高召回率的？
-4. 文本向量模型BGE
+1. [检索增强生成算法介绍](https://www.zhihu.com/tardis/bd/art/675509396?source_id=1001)
+2. [有哪些检索方式](https://zhuanlan.zhihu.com/p/678657202)
+3. [RAG怎么提高召回率的？](https://blog.csdn.net/weixin_45312236/article/details/139120662)
+4. [文本向量模型BGE](https://zhuanlan.zhihu.com/p/690856333)
 
 
 ## 大模型评测
 
 ### 大模型评测基准
 
-1. 你了解哪些大模型评测基准？
-2. 如何评测大模型
-3. 指令跟随能力的评估集有什么，如何评估的？
-4. gsm8k和math评估集有什么区别？
-5. mbpp和hella swag评估集有什么区别？
+1. [常见的大模型评测基准](https://zhuanlan.zhihu.com/p/710570068)
+2. [如何评测大模型](https://zhuanlan.zhihu.com/p/656320578)
+3. [如何评估大模型指令跟随能力](https://blog.csdn.net/2401_85549225/article/details/139808547)
 
 ## 大模型应用与大模型agent
 
 ### 大模型应用
 
-1. langchain
-2. huggingface TGI
-3. 大模型函数调用能力如何训练或微调、怎么组织文本的格式喂给模型、怎么把下游的一些工具/插件变成模型可以理解的方式？
-4. 大模型和推荐有什么结合方式？
+1. [langchain中文文档](https://js.langchain.com.cn/docs/)
+2. [huggingface TGI](https://blog.csdn.net/hyang1974/article/details/138501231)
+3. [大模型和推荐有什么结合方式？](https://blog.csdn.net/Thanours/article/details/139319316)
 
 ## 其他问题
 
@@ -292,16 +295,20 @@
 2. [git 冲突如何解决](https://blog.csdn.net/weixin_44799217/article/details/132013096)
 
 ### 其他计算机知识
-1. 流水线并行
+1. [流水线并行训练](https://zhuanlan.zhihu.com/p/707784244)
+2. [minhash原理](https://blog.csdn.net/zfhsfdhdfajhsr/article/details/128529402)
+3. [all reduce](https://blog.csdn.net/qq_38342510/article/details/136359296)
+4. [容灾](https://baijiahao.baidu.com/s?id=1673450846247020471&wfr=spider&for=pc)
 
 ### python基础
-1. python的迭代器和生成器的区别
-2. 装饰器、*args、**kwargs
+1. [python的迭代器和生成器的区别](https://blog.csdn.net/qq_52758588/article/details/136643799)
+2. [装饰器](https://www.runoob.com/python3/python-decorators.html)
+3. [*args、**kwargs的使用](https://blog.csdn.net/sodaloveer/article/details/134165294)
 
 ## pytorch基础
 - 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward、损失函数
-1. torchrun命令
-2. 
+1. [torchrun命令的使用](https://blog.51cto.com/u_15887260/7733758)
+
 
 ## 贡献指南
 
