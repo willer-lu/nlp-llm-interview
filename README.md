@@ -46,12 +46,11 @@
 2. [样本不均衡问题的解决](https://zhuanlan.zhihu.com/p/466994436)
 3. [机器学习正则化](https://blog.csdn.net/qq_31267769/article/details/103567455)
 4. [如何解决测试集和训练集分布差异问题](https://zhuanlan.zhihu.com/p/574303282)
-5. 机器学习的分类（有监督无监督）
-6. 逻辑回归损失函数为什么用交叉熵不用MSE？
-7. MHA中的dropout和MLP的dropout有什么区别？
-8. 针对小样本的处理方式
-9. 交叉熵损失的推导方式
-10. 集成学习
+5. [机器学习的分类（有监督无监督）](https://blog.csdn.net/wt334502157/article/details/139661576)
+6. [逻辑回归损失函数为什么用交叉熵不用MSE？](https://zhuanlan.zhihu.com/p/453411383)
+7. [小样本学习](https://blog.csdn.net/hellozhxy/article/details/131332847)
+8. [交叉熵损失的推导方式](https://zhuanlan.zhihu.com/p/349435290)
+9. [集成学习](https://baijiahao.baidu.com/s?id=1799441021746509245&wfr=spider&for=pc)
 
 ## 深度学习基础
 
@@ -65,10 +64,10 @@
 6. [模型并行训练](https://blog.csdn.net/v_JULY_v/article/details/132462452)
 7. [大模型训练显存不够一般怎么解决](https://zhuanlan.zhihu.com/p/693191199)
 8. [gpu对深度学习的作用](https://www.zhihu.com/tardis/bd/art/106669828)
-9. 学习率 warmup
-10. 数据清洗策略
-11. DP和DDP的区别
-12. 不同优化器的区别
+9. [学习率 warmup](https://blog.csdn.net/orangerfun/article/details/120400247)
+10. [数据清洗策略](https://blog.51cto.com/u_15444/11032611)
+11. [DP和DDP的区别](https://zhuanlan.zhihu.com/p/676142368)
+12. [不同优化器的区别](https://blog.51cto.com/u_16099252/10542265)
 
 ### 模型推理
 
