@@ -51,6 +51,7 @@
 7. [小样本学习](https://blog.csdn.net/hellozhxy/article/details/131332847)
 8. [交叉熵损失的推导方式](https://zhuanlan.zhihu.com/p/349435290)
 9. [集成学习](https://baijiahao.baidu.com/s?id=1799441021746509245&wfr=spider&for=pc)
+10. [拒绝采样](https://blog.csdn.net/qq_51320133/article/details/137910261)
 
 ## 深度学习基础
 
@@ -89,7 +90,7 @@
 6. [word2vec](https://zhuanlan.zhihu.com/p/251348767)
 7. [CNN处理文本](https://blog.csdn.net/weixin_43156294/article/details/140910917)
 8. [bpe分词](https://zhuanlan.zhihu.com/p/698189993)
-9. 上采样、下采样
+9. [不同的采样方法](https://zhuanlan.zhihu.com/p/453286395)
 
 ## Transformer、Bert、GPT系列模型
 
@@ -112,7 +113,7 @@
 3. [GPT-3、3.5、4](https://zhuanlan.zhihu.com/p/616691512)
 
 ### T5
-
+1. [T5模型详解](https://zhuanlan.zhihu.com/p/580554368)
 ### 模型比较
 
 1. [GPT和BERT的区别](https://zhuanlan.zhihu.com/p/709550645)
@@ -127,19 +128,17 @@
 2. [如何缓解LLM复读机问题？](https://blog.csdn.net/aigchouse/article/details/139510919)
 3. [对强化学习在LLM中的理解](https://zhuanlan.zhihu.com/p/692074916)
 4. [大模型量化](https://zhuanlan.zhihu.com/p/649460612)
-5. 大模型分布式训练
-6. 如何获得高质量的训练数据
+5. [大模型分布式训练](https://hub.baai.ac.cn/view/33040)
+6. [如何获得高质量的训练数据](https://baijiahao.baidu.com/s?id=1805369548400453514&wfr=spider&for=pc)
 7. [大语言模型模型对齐的方法](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247562456&idx=3&sn=a4f80efb78ae8c0926332ae52c253259&chksm=ea63e859903cb4571ca4d05d7f624e32304eaad10be8a8b3ce47e427103f77f5e372ac2eb51a&scene=27)
-8. flash attention
-9. group query attention
-10. page attention
-11. 模型训练速度受哪些方面影响
-12. 偏好对齐的理解，有哪些方式
-13. 训练精度
-14. 什么是scale law
-15. 如何评估训练数据的质量（定量定性）
-16. 大模型训练过程学习率一般如何变化的，退火阶段学习率如何变化的
-17. 预训练退火
+8. [flash attention](https://zhuanlan.zhihu.com/p/676655352)
+9. [group query attention](https://zhuanlan.zhihu.com/p/683370180)
+10. [page attention](https://blog.csdn.net/buptgshengod/article/details/132783552)
+11. [模型训练速度受哪些方面影响](https://blog.csdn.net/m0_56896669/article/details/137720202)
+12. [偏好对齐的理解，有哪些方式](https://zhuanlan.zhihu.com/p/675348061)
+13. [什么是scale law](https://zhuanlan.zhihu.com/p/671327709)
+14. [大模型训练过程学习率一般如何变化的](https://developer.baidu.com/article/details/2687396)
+15. [预训练退火](https://blog.csdn.net/baoyan2015/article/details/136025792)
 
 ### ChatGPT
 
@@ -154,18 +153,18 @@
 ### ChatGLM
 
 1. [chatGLM](https://zhuanlan.zhihu.com/p/686728765)
-2. chatGLM2
-3. chatGLM3
+2. [chatGLM2](https://blog.csdn.net/lazycatlove/article/details/140865800)
+3. [chatGLM3](https://blog.csdn.net/xiao_ling_yun/article/details/140905424)
 
-### 其他大模型
+### 其他大模型（参考官网资料）
 1. 百川
 2. 千问
 3. 羊驼
 
 ### 长文本大模型技术
-1. 提示压缩技术
-2. 长文本技术策略
-3. long lora
+1. [提示压缩技术](https://blog.csdn.net/JingYu_365/article/details/141116779)
+2. [长文本技术策略](https://zhuanlan.zhihu.com/p/657210829)
+3. [long lora](https://zhuanlan.zhihu.com/p/658067243)
 
 ### 其他大模型相关知识
 
@@ -178,9 +177,7 @@
 7. [大模型的性能和哪些因素有关](https://baijiahao.baidu.com/s?id=1765223469159042766&wfr=spider&for=pc)
 8. [稀疏注意力机制](https://zhuanlan.zhihu.com/p/691296437)
 9. [大模型提示学习](https://blog.csdn.net/idiotyi/article/details/140263181)
-10. 提升推理能力和指令跟随能力哪个更难，为什么，提升指令跟随能力的优化方式和其他的比如推理有什么不一样的地方
-11. rejection sampling
-12. [模型压缩与模型蒸馏](https://zhuanlan.zhihu.com/p/638092734)
+10. [模型压缩与模型蒸馏](https://zhuanlan.zhihu.com/p/638092734)
     
 
 
@@ -188,8 +185,8 @@
 ## 大模型微调
 ### 传统微调方法
 
-1. 全参数微调的显存占用、训练时间
-2. 多轮对话任务如何微调
+1. [全参数微调的显存占用](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247565072&idx=2&sn=1a94697ed9b5289968e6210214090be0&chksm=eaaa32e01615f923a29195e3109a9456bd6e3076757cea7201c8a8287135af84e5d753d7e96d&scene=27)
+2. [多轮对话任务如何微调](https://blog.csdn.net/Code1994/article/details/141156276)
 
 ### 参数高效的微调方法
 
@@ -198,9 +195,9 @@
 3. [不同微调方法的总结](https://blog.csdn.net/lvaolan123456/article/details/139809203)
 4. [lora训练项目--IEPile：大规模信息抽取语料库](https://github.com/zjunlp/IEPile/blob/main/README_CN.md)
 5. [peft库详解](https://blog.csdn.net/qq_41185868/article/details/131831931)
-6. Qlora
-7. adapter
-8. 模型采用的MLP的adapter，q former adapter，它们之间的一个选型的区别是什么，以及各自的优势是什么？
+6. [Qlora](https://zhuanlan.zhihu.com/p/681519805)
+7. [adapter](https://zhuanlan.zhihu.com/p/693730345)
+8. [微调方法总结](https://blog.csdn.net/2301_82275412/article/details/139009033)
 
 
 
@@ -212,9 +209,8 @@
 
 ### 微调数据集
 
-1. 不同微调方式的数据集格式和获取方式
-2. 微调需要多少条数据
-3. 有哪些大模型的训练集
+1. [微调需要多少条数据](https://blog.csdn.net/2401_85379281/article/details/140314766)
+2. [大模型常用的微调数据集](https://blog.csdn.net/weixin_43961909/article/details/138538912)
 
 ### 强化学习
 1. [DPO算法](https://blog.csdn.net/raelum/article/details/141612193)
