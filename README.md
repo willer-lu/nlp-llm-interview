@@ -52,6 +52,7 @@
 8. [交叉熵损失的推导方式](https://zhuanlan.zhihu.com/p/349435290)
 9. [集成学习](https://baijiahao.baidu.com/s?id=1799441021746509245&wfr=spider&for=pc)
 10. [拒绝采样](https://blog.csdn.net/qq_51320133/article/details/137910261)
+11. [查全率、查准率等指标的区别](https://blog.csdn.net/weixin_59049646/article/details/137771602)
 
 ## 深度学习基础
 
