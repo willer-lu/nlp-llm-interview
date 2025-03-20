@@ -51,7 +51,7 @@
 7. [小样本学习](https://blog.csdn.net/hellozhxy/article/details/131332847)
 8. [交叉熵损失的推导方式](https://zhuanlan.zhihu.com/p/349435290)
 9. [集成学习](https://baijiahao.baidu.com/s?id=1799441021746509245&wfr=spider&for=pc)
-10. [拒绝采样](https://blog.csdn.net/qq_51320133/article/details/137910261)
+10. [拒绝采样](https://zhuanlan.zhihu.com/p/21453360596)
 11. [查全率、查准率等指标的区别](https://blog.csdn.net/weixin_59049646/article/details/137771602)
 
 ## 深度学习基础
@@ -70,6 +70,10 @@
 10. [数据清洗策略](https://blog.51cto.com/u_15444/11032611)
 11. [DP和DDP的区别](https://zhuanlan.zhihu.com/p/676142368)
 12. [不同优化器的区别](https://blog.51cto.com/u_16099252/10542265)
+13. 手撕反向传播
+14. 常见的超参数的设置
+15. 模型参数量的计算
+16. 梯度消失与梯度爆炸
 
 ### 模型推理
 
@@ -140,10 +144,14 @@
 13. [什么是scale law](https://zhuanlan.zhihu.com/p/671327709)
 14. [大模型训练过程学习率一般如何变化的](https://developer.baidu.com/article/details/2687396)
 15. [预训练退火](https://blog.csdn.net/baoyan2015/article/details/136025792)
+16. 训练数据来源
+17. 训练数据配比
+18. 持续预训练、后训练
 
 ### ChatGPT
 
 1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
+2. GPT 4v 4o o1等
 
 ### llama
 
@@ -157,10 +165,13 @@
 2. [chatGLM2](https://blog.csdn.net/lazycatlove/article/details/140865800)
 3. [chatGLM3](https://blog.csdn.net/xiao_ling_yun/article/details/140905424)
 
+### Deep Seek
+
 ### 其他大模型（参考官网资料）
 1. 百川
 2. 千问
 3. 羊驼
+4. KIMI，文心一言
 
 ### 长文本大模型技术
 1. [提示压缩技术](https://blog.csdn.net/JingYu_365/article/details/141116779)
@@ -179,8 +190,10 @@
 8. [稀疏注意力机制](https://zhuanlan.zhihu.com/p/691296437)
 9. [大模型提示学习](https://blog.csdn.net/idiotyi/article/details/140263181)
 10. [模型压缩与模型蒸馏](https://zhuanlan.zhihu.com/p/638092734)
-    
-
+- 激活函数（GeLU、Swish、GLU）的选择与优化
+- 投机采样（Speculative Sampling）与生成策略（Top-k、Top-p、温度系数）
+- scaling law
+- 大模型知识注入、持续学习（如何避免灾难性遗忘）
 
 
 ## 大模型微调
@@ -221,6 +234,7 @@
 ## 大模型训练与推理加速
 
 1. [混合专家系统MOE](https://huggingface.co/blog/zh/moe)
+2. 梯度累积、激活检查点
 
 ### 大模型加速库
 
@@ -262,6 +276,9 @@
 2. [有哪些检索方式](https://zhuanlan.zhihu.com/p/678657202)
 3. [RAG怎么提高召回率的？](https://blog.csdn.net/weixin_45312236/article/details/139120662)
 4. [文本向量模型BGE](https://zhuanlan.zhihu.com/p/690856333)
+5. - 如何从检索的内容中过滤噪声
+- 如何保证生成是基于检索文本的
+- 检索文本和内部知识有冲突怎么办
 
 
 ## 大模型评测
