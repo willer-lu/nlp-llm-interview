@@ -53,6 +53,9 @@
 9. [集成学习](https://baijiahao.baidu.com/s?id=1799441021746509245&wfr=spider&for=pc)
 10. [拒绝采样](https://zhuanlan.zhihu.com/p/21453360596)
 11. [查全率、查准率等指标的区别](https://blog.csdn.net/weixin_59049646/article/details/137771602)
+12. bagging boosting方法
+13. gan vae
+14. 偏差和方差
 
 ## 深度学习基础
 
@@ -74,6 +77,12 @@
 14. 常见的超参数的设置
 15. 模型参数量的计算
 16. 梯度消失与梯度爆炸
+17. 批量梯度下降
+18. 训练时需要把哪些数据放到GPU上
+19. batchsize的选取到底对训练的效果有怎样的影响
+20. bn的公式
+21. transformer  、大模型  哪些是并行计算的
+22. 梯度检查点
 
 ### 模型推理
 
@@ -108,6 +117,7 @@
 3. [BatchNorm、LayerNorm以及GroupNorm](https://www.bilibili.com/video/BV1UG411f7DL/?spm_id_from=333.999.0.0)
 4. [transformers库的基本使用方式](https://blog.csdn.net/pipisorry/article/details/131003691)
 5. [safetensor](https://zhuanlan.zhihu.com/p/695555072)
+6. 相对位置编码汇总
 
 ### Bert
 
@@ -148,10 +158,16 @@
 15. [预训练退火](https://blog.csdn.net/baoyan2015/article/details/136025792)
 16. 训练数据来源
 17. 训练数据配比
-18. 持续预训练、后训练
+18. 持续预训练、后训练\大模型的继续训练
 19. 参数初始化
 20. 各种并行策略、包括序列并行等
+21. 
+fp16和bf16的区别
 
+
+
+
+高阶矩阵相乘，维度的变化
 ### ChatGPT
 
 1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
@@ -207,6 +223,8 @@
 - scaling law
 - 大模型知识注入、持续学习（如何避免灾难性遗忘）
 - moba
+- 如何得到大模型的置信度
+- nsp具体的训练方式
 
 
 ## 大模型微调
@@ -225,6 +243,8 @@
 6. [Qlora](https://zhuanlan.zhihu.com/p/681519805)
 7. [adapter](https://zhuanlan.zhihu.com/p/693730345)
 8. [微调方法总结](https://blog.csdn.net/2301_82275412/article/details/139009033)
+9. PILL（Pluggable Instruction Language Learning）、SSF（Scaling & Shifting Your Features）等其他类型的微调方法
+10. llama factory
 
 
 
@@ -255,6 +275,7 @@
 3. [deepspeed的加速原理](https://blog.csdn.net/zwqjoy/article/details/130732601)
 4. [介绍一下vllm](https://www.lixueduan.com/posts/ai/03-inference-vllm/)
 5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
+6. accelerate 库
 
 ### cuda相关知识
 1.  [SM，SP，warp 等相关概念和关系](https://zhuanlan.zhihu.com/p/266633373?utm_source=wechat_session&utm_id=0)
@@ -297,6 +318,9 @@
 - 检索文本和内部知识有冲突怎么办
 - graphrag
 生成式检索
+文本向量化、向量嵌入模型
+向量的维度
+评测的方法和基准
 
 
 
@@ -355,7 +379,7 @@
 ab实验，holdout ，gsb，评测指标gmv,ucvr
 
 ## pytorch基础
-- 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward、损失函数
+- 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward、损失函数、多头注意力机制
 1. [torchrun命令的使用](https://blog.51cto.com/u_15887260/7733758)
 
 
