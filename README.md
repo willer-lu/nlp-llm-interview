@@ -96,6 +96,8 @@
 7. [CNN处理文本](https://blog.csdn.net/weixin_43156294/article/details/140910917)
 8. [bpe分词](https://zhuanlan.zhihu.com/p/698189993)
 9. [不同的采样方法](https://zhuanlan.zhihu.com/p/453286395)
+10. 模型解码方式
+11. constrained beam search
 
 ## Transformer、Bert、GPT系列模型
 
@@ -147,11 +149,15 @@
 16. 训练数据来源
 17. 训练数据配比
 18. 持续预训练、后训练
+19. 参数初始化
+20. 各种并行策略、包括序列并行等
 
 ### ChatGPT
 
 1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
 2. GPT 4v 4o o1等
+3. [chatgpt](https://mp.weixin.qq.com/s?__biz=MzU1MzE2NzIzMg==&mid=2247491577&idx=1&sn=9247f63dc89f215ae5cc7bf476ffcec3&chksm=fbf7af16cc802600f182f961ed7ec3afe5910598a426bdb8cb72c93a2a0af7f0fb5961fc882b#rd
+)
 
 ### llama
 
@@ -166,17 +172,23 @@
 3. [chatGLM3](https://blog.csdn.net/xiao_ling_yun/article/details/140905424)
 
 ### Deep Seek
+1. nsa
 
 ### 其他大模型（参考官网资料）
 1. 百川
 2. 千问
 3. 羊驼
-4. KIMI，文心一言
+4. KIMI，文心一言，mistral、gemini、grok、claude
 
 ### 长文本大模型技术
 1. [提示压缩技术](https://blog.csdn.net/JingYu_365/article/details/141116779)
 2. [长文本技术策略](https://zhuanlan.zhihu.com/p/657210829)
 3. [long lora](https://zhuanlan.zhihu.com/p/658067243)
+
+
+### 强化学习相关
+1. 策略模型
+2. 各种对齐方法汇总
 
 ### 其他大模型相关知识
 
@@ -194,6 +206,7 @@
 - 投机采样（Speculative Sampling）与生成策略（Top-k、Top-p、温度系数）
 - scaling law
 - 大模型知识注入、持续学习（如何避免灾难性遗忘）
+- moba
 
 
 ## 大模型微调
@@ -258,6 +271,7 @@
 
 1. [k-v cache](https://www.jianshu.com/p/22daf73f5c9a)
 2. [大语言模型LLM基础：推理/不同模型/量化对显存、推理速度和性能的影响](https://blog.csdn.net/weixin_45498383/article/details/140058934)
+3. mla
 
 ## 大模型幻觉
 
@@ -269,6 +283,8 @@
 ### 大模型幻觉问题
 
 1. [大模型幻觉产生原因和解决方案](https://zhuanlan.zhihu.com/p/677935286)
+2. 知识注入（以llama2-7b为例）
+3. [TaD](https://mp.weixin.qq.com/s/jnD87hrEnrARsCRaL4cmcQ)
 
 ### 检索增强生成
 
@@ -279,15 +295,23 @@
 5. - 如何从检索的内容中过滤噪声
 - 如何保证生成是基于检索文本的
 - 检索文本和内部知识有冲突怎么办
+- graphrag
+生成式检索
+
+
 
 
 ## 大模型评测
+
+### 常见的评测指标
+1. bleu、ppl、rouge
 
 ### 大模型评测基准
 
 1. [常见的大模型评测基准](https://zhuanlan.zhihu.com/p/710570068)
 2. [如何评测大模型](https://zhuanlan.zhihu.com/p/656320578)
 3. [如何评估大模型指令跟随能力](https://blog.csdn.net/2401_85549225/article/details/139808547)
+4. 
 
 ## 大模型应用与大模型agent
 
@@ -296,6 +320,16 @@
 1. [langchain中文文档](https://js.langchain.com.cn/docs/)
 2. [huggingface TGI](https://blog.csdn.net/hyang1974/article/details/138501231)
 3. [大模型和推荐有什么结合方式？](https://blog.csdn.net/Thanours/article/details/139319316)
+4. 一些code gpt
+5. 大模型生成数据、数据清洗策略
+6. 大模型记忆
+7. [部分应用总结](https://mp.weixin.qq.com/s/1uOtz340I1UBxitcwTzxtA)
+8. 大模型+弱监督学习的零样本相关性模型
+基于弱监督学习的零样本标注方案
+
+
+### 大模型智能体
+1. magnus
 
 ## 其他问题
 
@@ -309,11 +343,16 @@
 2. [minhash原理](https://blog.csdn.net/zfhsfdhdfajhsr/article/details/128529402)
 3. [all reduce](https://blog.csdn.net/qq_38342510/article/details/136359296)
 4. [容灾](https://baijiahao.baidu.com/s?id=1673450846247020471&wfr=spider&for=pc)
+5. docker基础
+6. code review
 
 ### python基础
 1. [python的迭代器和生成器的区别](https://blog.csdn.net/qq_52758588/article/details/136643799)
 2. [装饰器](https://www.runoob.com/python3/python-decorators.html)
 3. [*args、**kwargs的使用](https://blog.csdn.net/sodaloveer/article/details/134165294)
+
+### 搜推相关
+ab实验，holdout ，gsb，评测指标gmv,ucvr
 
 ## pytorch基础
 - 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward、损失函数
