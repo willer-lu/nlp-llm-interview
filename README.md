@@ -53,9 +53,9 @@
 9. [集成学习](https://baijiahao.baidu.com/s?id=1799441021746509245&wfr=spider&for=pc)
 10. [拒绝采样](https://zhuanlan.zhihu.com/p/21453360596)
 11. [查全率、查准率等指标的区别](https://blog.csdn.net/weixin_59049646/article/details/137771602)
-12. bagging boosting方法
-13. gan vae
-14. 偏差和方差
+12. [bagging boosting方法](https://cloud.tencent.com/developer/article/1428832)
+13. [gan vae](https://blog.csdn.net/liuweni/article/details/144593953)
+14. [偏差和方差](https://blog.csdn.net/stay_foolish12/article/details/89289564)
 
 ## 深度学习基础
 
@@ -73,16 +73,13 @@
 10. [数据清洗策略](https://blog.51cto.com/u_15444/11032611)
 11. [DP和DDP的区别](https://zhuanlan.zhihu.com/p/676142368)
 12. [不同优化器的区别](https://blog.51cto.com/u_16099252/10542265)
-13. 手撕反向传播
-14. 常见的超参数的设置
-15. 模型参数量的计算
-16. 梯度消失与梯度爆炸
-17. 批量梯度下降
-18. 训练时需要把哪些数据放到GPU上
-19. batchsize的选取到底对训练的效果有怎样的影响
-20. bn的公式
-21. transformer  、大模型  哪些是并行计算的
-22. 梯度检查点
+13. [手撕反向传播](https://blog.51cto.com/u_15240054/10029601)
+14. [常见的超参数的设置](https://blog.csdn.net/JiexianYao/article/details/143486610)
+15. [模型参数量的计算](https://www.cnblogs.com/future-dream/p/18504417)
+16. [梯度消失与梯度爆炸](https://blog.csdn.net/Code1994/article/details/143735999)
+17. [批量梯度下降](https://blog.csdn.net/m0_51200050/article/details/140077396)
+18. [batchsize的选取到底对训练的效果有怎样的影响](https://blog.csdn.net/liuchenbaidu/article/details/143735040)
+19. [梯度检查点](https://zhuanlan.zhihu.com/p/19218662446)
 
 ### 模型推理
 
@@ -105,8 +102,8 @@
 7. [CNN处理文本](https://blog.csdn.net/weixin_43156294/article/details/140910917)
 8. [bpe分词](https://zhuanlan.zhihu.com/p/698189993)
 9. [不同的采样方法](https://zhuanlan.zhihu.com/p/453286395)
-10. 模型解码方式
-11. constrained beam search
+10. [模型解码方式](https://zhuanlan.zhihu.com/p/715728509)
+11. [constrained beam search](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247550556&idx=2&sn=759a0fbfc878ed8844e12798701d175a&chksm=ebb73e88dcc0b79e0a21a51059d3859000dca073ea640c5b1b2d7f5f7294fc54f37191723f86&scene=27)
 
 ## Transformer、Bert、GPT系列模型
 
@@ -117,7 +114,7 @@
 3. [BatchNorm、LayerNorm以及GroupNorm](https://www.bilibili.com/video/BV1UG411f7DL/?spm_id_from=333.999.0.0)
 4. [transformers库的基本使用方式](https://blog.csdn.net/pipisorry/article/details/131003691)
 5. [safetensor](https://zhuanlan.zhihu.com/p/695555072)
-6. 相对位置编码汇总
+6. [位置编码汇总](https://blog.csdn.net/qq_45791939/article/details/146075127)
 
 ### Bert
 
@@ -156,18 +153,13 @@
 13. [什么是scale law](https://zhuanlan.zhihu.com/p/671327709)
 14. [大模型训练过程学习率一般如何变化的](https://developer.baidu.com/article/details/2687396)
 15. [预训练退火](https://blog.csdn.net/baoyan2015/article/details/136025792)
-16. 训练数据来源
-17. 训练数据配比
-18. 持续预训练、后训练\大模型的继续训练
-19. 参数初始化
-20. 各种并行策略、包括序列并行等
-21. 
-fp16和bf16的区别
-
-
-
-
-高阶矩阵相乘，维度的变化
+16. [训练数据来源](https://baijiahao.baidu.com/s?id=1805283661252037515&wfr=spider&for=pc)
+17. [训练数据配比](https://www.zhihu.com/question/639096509/answer/3434426739)
+18. [持续预训练、后训练\大模型的继续训练](https://blog.csdn.net/aolan123/article/details/144671210)
+19. [各种并行策略](https://zhuanlan.zhihu.com/p/17561509307)
+20. [序列并行等](https://zhuanlan.zhihu.com/p/659792351)
+21. [fp16和bf16的区别](https://zhuanlan.zhihu.com/p/703939408)
+22. [高阶矩阵相乘，维度的变化](https://blog.csdn.net/weixin_43135178/article/details/120610743)
 ### ChatGPT
 
 1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
@@ -225,6 +217,7 @@ fp16和bf16的区别
 - moba
 - 如何得到大模型的置信度
 - nsp具体的训练方式
+- 大模型指令遵循
 
 
 ## 大模型微调
