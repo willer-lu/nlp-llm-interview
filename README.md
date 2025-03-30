@@ -214,7 +214,7 @@
 9. [大模型提示学习](https://blog.csdn.net/idiotyi/article/details/140263181)
 10. [模型压缩与模型蒸馏](https://zhuanlan.zhihu.com/p/638092734)
 11. [激活函数（GeLU、Swish、GLU）的选择与优化](https://zhuanlan.zhihu.com/p/716010465)
-12. [生成策略（Top-k、Top-p、温度系数）]（https://blog.csdn.net/Bug_makerACE/article/details/145923880）
+12. [生成策略Top-k、Top-p、温度系数](https://blog.csdn.net/Bug_makerACE/article/details/145923880)
 13. [投机采样](https://zhuanlan.zhihu.com/p/693437454)
 14. [scaling law](https://baijiahao.baidu.com/s?id=1822931723327422180&wfr=spider&for=pc)
 15. [如何避免灾难性遗忘](https://zhuanlan.zhihu.com/p/657115007)
@@ -302,7 +302,7 @@
 ### 大模型幻觉问题
 
 1. [大模型幻觉产生原因和解决方案](https://zhuanlan.zhihu.com/p/677935286)
-2. 知识注入（以llama2-7b为例）[https://arxiv.org/abs/2403.14950?context=cs.LG]
+2. [知识注入（以llama2-7b为例）](https://arxiv.org/abs/2403.14950?context=cs.LG)
 3. [TaD](https://mp.weixin.qq.com/s/jnD87hrEnrARsCRaL4cmcQ)
 
 ### 检索增强生成
