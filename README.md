@@ -311,14 +311,13 @@
 2. [有哪些检索方式](https://zhuanlan.zhihu.com/p/678657202)
 3. [RAG怎么提高召回率的？](https://blog.csdn.net/weixin_45312236/article/details/139120662)
 4. [文本向量模型BGE](https://zhuanlan.zhihu.com/p/690856333)
-5. - 如何从检索的内容中过滤噪声
-- 如何保证生成是基于检索文本的
-- 检索文本和内部知识有冲突怎么办
-- graphrag
-生成式检索
-文本向量化、向量嵌入模型
-向量的维度
-评测的方法和基准
+5. [如何从检索的内容中过滤噪声](https://blog.csdn.net/m0_59235699/article/details/143028404)
+6. [检索文本和内部知识有冲突怎么办](https://zhuanlan.zhihu.com/p/693073418)
+7. [graphrag](https://zhuanlan.zhihu.com/p/716999421)
+8. [生成式检索](https://zhuanlan.zhihu.com/p/711218878)
+9. [向量嵌入模型](https://blog.csdn.net/python1234567_/article/details/140462569)
+10. [向量相关](https://juejin.cn/post/7448634021880004634)
+11. [评测的方法和基准](https://zhuanlan.zhihu.com/p/717985736)
 
 
 
@@ -326,15 +325,14 @@
 ## 大模型评测
 
 ### 常见的评测指标
-1. bleu、ppl、rouge
+1. [bleu、ppl、rouge](https://blog.csdn.net/J_J_Gong/article/details/140113239)
 
 ### 大模型评测基准
 
 1. [常见的大模型评测基准](https://zhuanlan.zhihu.com/p/710570068)
 2. [如何评测大模型](https://zhuanlan.zhihu.com/p/656320578)
 3. [如何评估大模型指令跟随能力](https://blog.csdn.net/2401_85549225/article/details/139808547)
-4. 
-
+   
 ## 大模型应用与大模型agent
 
 ### 大模型应用
@@ -342,16 +340,16 @@
 1. [langchain中文文档](https://js.langchain.com.cn/docs/)
 2. [huggingface TGI](https://blog.csdn.net/hyang1974/article/details/138501231)
 3. [大模型和推荐有什么结合方式？](https://blog.csdn.net/Thanours/article/details/139319316)
-4. 一些code gpt
-5. 大模型生成数据、数据清洗策略
-6. 大模型记忆
-7. [部分应用总结](https://mp.weixin.qq.com/s/1uOtz340I1UBxitcwTzxtA)
-8. 大模型+弱监督学习的零样本相关性模型
-基于弱监督学习的零样本标注方案
+4. [一些code gpt](https://zhuanlan.zhihu.com/p/628946797)
+5. [大模型生成数据](https://blog.csdn.net/weixin_41174300/article/details/141190672)
+6. [数据清洗策略](https://zhuanlan.zhihu.com/p/28666242141)
+7. [大模型记忆](https://zhuanlan.zhihu.com/p/718037162)
+8. [部分应用总结](https://mp.weixin.qq.com/s/1uOtz340I1UBxitcwTzxtA)
+9. [基于弱监督学习的零样本标注方案](https://zhuanlan.zhihu.com/p/648506749)
 
 
 ### 大模型智能体
-1. magnus
+1. [manus](https://jarod.blog.csdn.net/article/details/146113632?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-146113632-blog-146083943.235%5Ev43%5Epc_blog_bottom_relevance_base9&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-146113632-blog-146083943.235%5Ev43%5Epc_blog_bottom_relevance_base9&utm_relevant_index=9)
 
 ## 其他问题
 
@@ -365,8 +363,8 @@
 2. [minhash原理](https://blog.csdn.net/zfhsfdhdfajhsr/article/details/128529402)
 3. [all reduce](https://blog.csdn.net/qq_38342510/article/details/136359296)
 4. [容灾](https://baijiahao.baidu.com/s?id=1673450846247020471&wfr=spider&for=pc)
-5. docker基础
-6. code review
+5. [docker基础](https://blog.csdn.net/leah126/article/details/131871717)
+6. [code review](https://zhuanlan.zhihu.com/p/709536885)
 
 ### python基础
 1. [python的迭代器和生成器的区别](https://blog.csdn.net/qq_52758588/article/details/136643799)
@@ -374,7 +372,10 @@
 3. [*args、**kwargs的使用](https://blog.csdn.net/sodaloveer/article/details/134165294)
 
 ### 搜推相关
-ab实验，holdout ，gsb，评测指标gmv,ucvr
+1. [ab实验](https://zhuanlan.zhihu.com/p/18748628716)
+2. [holdout](https://zhuanlan.zhihu.com/p/715255126)
+3. [gmv](https://baijiahao.baidu.com/s?id=1822838142883092875&wfr=spider&for=pc)
+   
 
 ## pytorch基础
 - 注：可能会在面试过程中考察手撕代码，包括但不限于基本训练代码（MLP+梯度更新）、normalization、经典模型的forward、损失函数、多头注意力机制
