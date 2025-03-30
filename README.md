@@ -163,8 +163,10 @@
 ### ChatGPT
 
 1. [大语言模型的预训练RLHF](https://blog.csdn.net/sinat_39620217/article/details/131796342)
-2. GPT 4v 4o o1等
-3. [chatgpt](https://mp.weixin.qq.com/s?__biz=MzU1MzE2NzIzMg==&mid=2247491577&idx=1&sn=9247f63dc89f215ae5cc7bf476ffcec3&chksm=fbf7af16cc802600f182f961ed7ec3afe5910598a426bdb8cb72c93a2a0af7f0fb5961fc882b#rd
+2. [GPT 4o到o1](https://zhuanlan.zhihu.com/p/3821829470)
+3. [o1相关技术](https://zhuanlan.zhihu.com/p/926807168)
+4. [o3](https://zhuanlan.zhihu.com/p/20895042929)
+5. [chatgpt](https://mp.weixin.qq.com/s?__biz=MzU1MzE2NzIzMg==&mid=2247491577&idx=1&sn=9247f63dc89f215ae5cc7bf476ffcec3&chksm=fbf7af16cc802600f182f961ed7ec3afe5910598a426bdb8cb72c93a2a0af7f0fb5961fc882b#rd
 )
 
 ### llama
@@ -172,6 +174,7 @@
 1. [llama 3.1结构详解](https://zhuanlan.zhihu.com/p/710780476)
 2. [llama2](https://blog.csdn.net/v_JULY_v/article/details/129709105)
 3. [llama](https://blog.csdn.net/qq_42533357/article/details/136993941)
+4. [llama3.2](https://zhuanlan.zhihu.com/p/803861772)
 
 ### ChatGLM
 
@@ -180,9 +183,9 @@
 3. [chatGLM3](https://blog.csdn.net/xiao_ling_yun/article/details/140905424)
 
 ### Deep Seek
-1. nsa
+1. [技术详解](https://zhuanlan.zhihu.com/p/21208287743)
 
-### 其他大模型（参考官网资料）
+### 其他大模型（参考官网资料,了解特点即可）
 1. 百川
 2. 千问
 3. 羊驼
@@ -195,8 +198,8 @@
 
 
 ### 强化学习相关
-1. 策略模型
-2. 各种对齐方法汇总
+1. [综述](https://zhuanlan.zhihu.com/p/29844507568)
+2. [各种对齐方法汇总](https://blog.csdn.net/xiangxueerfei/article/details/138676525)
 
 ### 其他大模型相关知识
 
@@ -210,14 +213,16 @@
 8. [稀疏注意力机制](https://zhuanlan.zhihu.com/p/691296437)
 9. [大模型提示学习](https://blog.csdn.net/idiotyi/article/details/140263181)
 10. [模型压缩与模型蒸馏](https://zhuanlan.zhihu.com/p/638092734)
-- 激活函数（GeLU、Swish、GLU）的选择与优化
-- 投机采样（Speculative Sampling）与生成策略（Top-k、Top-p、温度系数）
-- scaling law
-- 大模型知识注入、持续学习（如何避免灾难性遗忘）
-- moba
-- 如何得到大模型的置信度
-- nsp具体的训练方式
-- 大模型指令遵循
+11. [激活函数（GeLU、Swish、GLU）的选择与优化](https://zhuanlan.zhihu.com/p/716010465)
+12. [生成策略（Top-k、Top-p、温度系数）]（https://blog.csdn.net/Bug_makerACE/article/details/145923880）
+13. [投机采样](https://zhuanlan.zhihu.com/p/693437454)
+14. [scaling law](https://baijiahao.baidu.com/s?id=1822931723327422180&wfr=spider&for=pc)
+15. [如何避免灾难性遗忘](https://zhuanlan.zhihu.com/p/657115007)
+16. [大模型知识注入](https://baijiahao.baidu.com/s?id=1746383908942637238&wfr=spider&for=pc)
+17. [moba](https://zhuanlan.zhihu.com/p/24766741461)
+18. [大模型持续学习](https://zhuanlan.zhihu.com/p/681583249)
+19. [如何得到大模型的置信度](https://blog.csdn.net/m0_59235245/article/details/143374505)
+20. [大模型指令遵循](https://zhuanlan.zhihu.com/p/703371008)
 
 
 ## 大模型微调
@@ -236,8 +241,8 @@
 6. [Qlora](https://zhuanlan.zhihu.com/p/681519805)
 7. [adapter](https://zhuanlan.zhihu.com/p/693730345)
 8. [微调方法总结](https://blog.csdn.net/2301_82275412/article/details/139009033)
-9. PILL（Pluggable Instruction Language Learning）、SSF（Scaling & Shifting Your Features）等其他类型的微调方法
-10. llama factory
+9. [PILL（Pluggable Instruction Language Learning）、SSF（Scaling & Shifting Your Features）等其他类型的微调方法](https://zhuanlan.zhihu.com/p/7483602500)
+10. [llama factory](https://blog.csdn.net/2401_85373691/article/details/142871866)
 
 
 
@@ -260,7 +265,7 @@
 ## 大模型训练与推理加速
 
 1. [混合专家系统MOE](https://huggingface.co/blog/zh/moe)
-2. 梯度累积、激活检查点
+2. [梯度累积、激活检查点](https://blog.csdn.net/sunghosts/article/details/133385241)
 
 ### 大模型加速库
 
@@ -268,7 +273,7 @@
 3. [deepspeed的加速原理](https://blog.csdn.net/zwqjoy/article/details/130732601)
 4. [介绍一下vllm](https://www.lixueduan.com/posts/ai/03-inference-vllm/)
 5. [deepspeed库的基本使用方式](https://blog.csdn.net/myTomorrow_better/article/details/138945584)
-6. accelerate 库
+6. [accelerate 库](https://blog.csdn.net/cxx654/article/details/131817042)
 
 ### cuda相关知识
 1.  [SM，SP，warp 等相关概念和关系](https://zhuanlan.zhihu.com/p/266633373?utm_source=wechat_session&utm_id=0)
@@ -285,7 +290,7 @@
 
 1. [k-v cache](https://www.jianshu.com/p/22daf73f5c9a)
 2. [大语言模型LLM基础：推理/不同模型/量化对显存、推理速度和性能的影响](https://blog.csdn.net/weixin_45498383/article/details/140058934)
-3. mla
+3. [mla](https://blog.csdn.net/yutianzuijin/article/details/142372022)
 
 ## 大模型幻觉
 
@@ -297,7 +302,7 @@
 ### 大模型幻觉问题
 
 1. [大模型幻觉产生原因和解决方案](https://zhuanlan.zhihu.com/p/677935286)
-2. 知识注入（以llama2-7b为例）
+2. 知识注入（以llama2-7b为例）[https://arxiv.org/abs/2403.14950?context=cs.LG]
 3. [TaD](https://mp.weixin.qq.com/s/jnD87hrEnrARsCRaL4cmcQ)
 
 ### 检索增强生成
